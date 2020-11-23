@@ -1,0 +1,9 @@
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Utiltites\bin\Debug\netcoreapp3.1\TMTCoreApp.Utiltites.deps.json
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Utiltites\bin\Debug\netcoreapp3.1\TMTCoreApp.Utiltites.dll
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Utiltites\bin\Debug\netcoreapp3.1\TMTCoreApp.Utiltites.pdb
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Utiltites\obj\Debug\netcoreapp3.1\TMTCoreApp.Utiltites.csprojAssemblyReference.cache
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Utiltites\obj\Debug\netcoreapp3.1\TMTCoreApp.Utiltites.AssemblyInfoInputs.cache
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Utiltites\obj\Debug\netcoreapp3.1\TMTCoreApp.Utiltites.AssemblyInfo.cs
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Utiltites\obj\Debug\netcoreapp3.1\TMTCoreApp.Utiltites.csproj.CoreCompileInputs.cache
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Utiltites\obj\Debug\netcoreapp3.1\TMTCoreApp.Utiltites.dll
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Utiltites\obj\Debug\netcoreapp3.1\TMTCoreApp.Utiltites.pdb

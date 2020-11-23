@@ -1,7 +1,22 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TMTCoreApp.Application\TMTCoreApp.Application.csproj" />
+    <ProjectReference Include="..\TMTCoreApp.Data.EF\TMTCoreApp.Data.EF.csproj" />
+    <ProjectReference Include="..\TMTCoreApp.data\TMTCoreApp.Data.csproj" />
+    <ProjectReference Include="..\TMTCoreApp.Infrastructure\TMTCoreApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\TMTCoreApp.Utiltites\TMTCoreApp.Utiltites.csproj" />
+  </ItemGroup>
 
 </Project>

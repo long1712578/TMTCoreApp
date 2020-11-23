@@ -1,0 +1,9 @@
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Infrastructure\bin\Debug\netcoreapp3.1\TMTCoreApp.Infrastructure.deps.json
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Infrastructure\bin\Debug\netcoreapp3.1\TMTCoreApp.Infrastructure.dll
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Infrastructure\bin\Debug\netcoreapp3.1\TMTCoreApp.Infrastructure.pdb
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Infrastructure\obj\Debug\netcoreapp3.1\TMTCoreApp.Infrastructure.csprojAssemblyReference.cache
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Infrastructure\obj\Debug\netcoreapp3.1\TMTCoreApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Infrastructure\obj\Debug\netcoreapp3.1\TMTCoreApp.Infrastructure.AssemblyInfo.cs
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Infrastructure\obj\Debug\netcoreapp3.1\TMTCoreApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Infrastructure\obj\Debug\netcoreapp3.1\TMTCoreApp.Infrastructure.dll
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.Infrastructure\obj\Debug\netcoreapp3.1\TMTCoreApp.Infrastructure.pdb

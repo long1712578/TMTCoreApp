@@ -1,0 +1,15 @@
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.data\obj\Debug\netcoreapp3.1\TMTCoreApp.Data.csprojAssemblyReference.cache
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.data\obj\Debug\netcoreapp3.1\TMTCoreApp.Data.AssemblyInfoInputs.cache
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.data\obj\Debug\netcoreapp3.1\TMTCoreApp.Data.AssemblyInfo.cs
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.data\obj\Debug\netcoreapp3.1\TMTCoreApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.data\bin\Debug\netcoreapp3.1\TMTCoreApp.Data.deps.json
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.data\bin\Debug\netcoreapp3.1\TMTCoreApp.Data.runtimeconfig.json
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.data\bin\Debug\netcoreapp3.1\TMTCoreApp.Data.runtimeconfig.dev.json
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.data\bin\Debug\netcoreapp3.1\TMTCoreApp.Data.dll
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.data\bin\Debug\netcoreapp3.1\TMTCoreApp.Data.pdb
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.data\bin\Debug\netcoreapp3.1\TMTCoreApp.Infrastructure.dll
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.data\bin\Debug\netcoreapp3.1\TMTCoreApp.Infrastructure.pdb
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.data\obj\Debug\netcoreapp3.1\TMTCoreApp.Data.csproj.CopyComplete
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.data\obj\Debug\netcoreapp3.1\TMTCoreApp.Data.dll
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.data\obj\Debug\netcoreapp3.1\TMTCoreApp.Data.pdb
+C:\Users\TMT\source\repos\TMTCoreApp\TMTCoreApp.data\obj\Debug\netcoreapp3.1\TMTCoreApp.Data.genruntimeconfig.cache
