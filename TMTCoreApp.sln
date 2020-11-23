@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMTCoreApp", "TMTCoreApp\TMTCoreApp.csproj", "{895EC0B4-DC8A-4F45-9154-D6D306058F9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMTCoreApp.Infrastructure", "TMTCoreApp.Infrastructure\TMTCoreApp.Infrastructure.csproj", "{08116774-5F5D-41FB-89E2-88C5144CE084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMTCoreApp.Utiltites", "TMTCoreApp.Utiltites\TMTCoreApp.Utiltites.csproj", "{00B664F1-5E9C-4287-9571-3458FDCD90FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMTCoreApp.Data", "TMTCoreApp.data\TMTCoreApp.Data.csproj", "{AE268479-DAC3-4F3A-9083-B3E80593B8FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMTCoreApp.Data.EF", "TMTCoreApp.Data.EF\TMTCoreApp.Data.EF.csproj", "{C2913744-7086-4FE8-8BE3-A09B7E854C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMTCoreApp.Application", "TMTCoreApp.Application\TMTCoreApp.Application.csproj", "{AF959D3B-478D-4B53-81D6-465BDDEDF29A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{895EC0B4-DC8A-4F45-9154-D6D306058F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895EC0B4-DC8A-4F45-9154-D6D306058F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895EC0B4-DC8A-4F45-9154-D6D306058F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895EC0B4-DC8A-4F45-9154-D6D306058F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08116774-5F5D-41FB-89E2-88C5144CE084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08116774-5F5D-41FB-89E2-88C5144CE084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08116774-5F5D-41FB-89E2-88C5144CE084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08116774-5F5D-41FB-89E2-88C5144CE084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B664F1-5E9C-4287-9571-3458FDCD90FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B664F1-5E9C-4287-9571-3458FDCD90FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B664F1-5E9C-4287-9571-3458FDCD90FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B664F1-5E9C-4287-9571-3458FDCD90FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE268479-DAC3-4F3A-9083-B3E80593B8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE268479-DAC3-4F3A-9083-B3E80593B8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE268479-DAC3-4F3A-9083-B3E80593B8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE268479-DAC3-4F3A-9083-B3E80593B8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2913744-7086-4FE8-8BE3-A09B7E854C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2913744-7086-4FE8-8BE3-A09B7E854C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2913744-7086-4FE8-8BE3-A09B7E854C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2913744-7086-4FE8-8BE3-A09B7E854C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF959D3B-478D-4B53-81D6-465BDDEDF29A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF959D3B-478D-4B53-81D6-465BDDEDF29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF959D3B-478D-4B53-81D6-465BDDEDF29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF959D3B-478D-4B53-81D6-465BDDEDF29A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DEA1D0D-4CF0-4373-9AFC-8B68EE7777AF}
+	EndGlobalSection
+EndGlobal

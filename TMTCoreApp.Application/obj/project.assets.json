@@ -1,0 +1,148 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TMTCoreApp.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/TMTCoreApp.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TMTCoreApp.Data.dll": {}
+        }
+      },
+      "TMTCoreApp.Data.EF/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "TMTCoreApp.Data": "1.0.0",
+          "TMTCoreApp.Infrastructure": "1.0.0",
+          "TMTCoreApp.Utiltites": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TMTCoreApp.Data.EF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TMTCoreApp.Data.EF.dll": {}
+        }
+      },
+      "TMTCoreApp.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/TMTCoreApp.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TMTCoreApp.Infrastructure.dll": {}
+        }
+      },
+      "TMTCoreApp.Utiltites/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/TMTCoreApp.Utiltites.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TMTCoreApp.Utiltites.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TMTCoreApp.Data/1.0.0": {
+      "type": "project",
+      "path": "../TMTCoreApp.data/TMTCoreApp.Data.csproj",
+      "msbuildProject": "../TMTCoreApp.data/TMTCoreApp.Data.csproj"
+    },
+    "TMTCoreApp.Data.EF/1.0.0": {
+      "type": "project",
+      "path": "../TMTCoreApp.Data.EF/TMTCoreApp.Data.EF.csproj",
+      "msbuildProject": "../TMTCoreApp.Data.EF/TMTCoreApp.Data.EF.csproj"
+    },
+    "TMTCoreApp.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../TMTCoreApp.Infrastructure/TMTCoreApp.Infrastructure.csproj",
+      "msbuildProject": "../TMTCoreApp.Infrastructure/TMTCoreApp.Infrastructure.csproj"
+    },
+    "TMTCoreApp.Utiltites/1.0.0": {
+      "type": "project",
+      "path": "../TMTCoreApp.Utiltites/TMTCoreApp.Utiltites.csproj",
+      "msbuildProject": "../TMTCoreApp.Utiltites/TMTCoreApp.Utiltites.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "TMTCoreApp.Data >= 1.0.0",
+      "TMTCoreApp.Data.EF >= 1.0.0",
+      "TMTCoreApp.Utiltites >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\TMT\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\TMT\\source\\repos\\TMTCoreApp\\TMTCoreApp.Application\\TMTCoreApp.Application.csproj",
+      "projectName": "TMTCoreApp.Application",
+      "projectPath": "C:\\Users\\TMT\\source\\repos\\TMTCoreApp\\TMTCoreApp.Application\\TMTCoreApp.Application.csproj",
+      "packagesPath": "C:\\Users\\TMT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TMT\\source\\repos\\TMTCoreApp\\TMTCoreApp.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\TMT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\TMT\\source\\repos\\TMTCoreApp\\TMTCoreApp.Data.EF\\TMTCoreApp.Data.EF.csproj": {
+              "projectPath": "C:\\Users\\TMT\\source\\repos\\TMTCoreApp\\TMTCoreApp.Data.EF\\TMTCoreApp.Data.EF.csproj"
+            },
+            "C:\\Users\\TMT\\source\\repos\\TMTCoreApp\\TMTCoreApp.data\\TMTCoreApp.Data.csproj": {
+              "projectPath": "C:\\Users\\TMT\\source\\repos\\TMTCoreApp\\TMTCoreApp.data\\TMTCoreApp.Data.csproj"
+            },
+            "C:\\Users\\TMT\\source\\repos\\TMTCoreApp\\TMTCoreApp.Utiltites\\TMTCoreApp.Utiltites.csproj": {
+              "projectPath": "C:\\Users\\TMT\\source\\repos\\TMTCoreApp\\TMTCoreApp.Utiltites\\TMTCoreApp.Utiltites.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
