@@ -5,6 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20201124093527_asp.cs" />
+    <Compile Remove="Migrations\20201124093527_asp.Designer.cs" />
+    <Compile Remove="Migrations\20201124094548_asp1.cs" />
+    <Compile Remove="Migrations\20201124094548_asp1.Designer.cs" />
+    <Compile Remove="Migrations\20201124095525_asp.cs" />
+    <Compile Remove="Migrations\20201124095525_asp.Designer.cs" />
+    <Compile Remove="Migrations\20201124100043_asp2.cs" />
+    <Compile Remove="Migrations\20201124100043_asp2.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Reponsitorys\" />
   </ItemGroup>
 

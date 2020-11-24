@@ -1,12 +1,15 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using TMTCoreApp.Data.EF.Configurations;
 using TMTCoreApp.Data.EF.Extensions;
 using TMTCoreApp.Data.Entities;
+using TMTCoreApp.Data.Interfaces;
 
 namespace TMTCoreApp.Data.EF
 {
@@ -45,7 +48,7 @@ namespace TMTCoreApp.Data.EF
 
         public DbSet<Tag> Tags { set; get; }
 
-       //public DbSet<Permission> Permissions { get; set; }
+       public DbSet<Permission> Permissions { get; set; }
         public DbSet<WholePrice> WholePrices { get; set; }
 
         public DbSet<AdvertistmentPage> AdvertistmentPages { get; set; }
@@ -63,6 +66,8 @@ namespace TMTCoreApp.Data.EF
             builder.AddConfiguration(new PageConfiguration());
             builder.AddConfiguration(new ProductTagConfiguration());
             builder.AddConfiguration(new SystemConfigConfiguration());
+            builder.AddConfiguration(new AdvertistmentPageConfiguratrion());
+            builder.AddConfiguration(new AnnouncementConfiguration());
             builder.Entity<IdentityUserClaim<string>>().ToTable("AppUserClaims").HasKey(x => x.Id);
             builder.Entity<IdentityRoleClaim<string>>().ToTable("AppRoleClaims").HasKey(x => x.Id); ;
             builder.Entity<IdentityUserLogin<string>>().ToTable("AppUserLogins").HasKey(x => x.UserId); ;
@@ -70,7 +75,25 @@ namespace TMTCoreApp.Data.EF
             builder.Entity<IdentityUserToken<string>>().ToTable("AppUserTokens").HasKey(x => x.UserId); ;
             base.OnModelCreating(builder);
         }
-        
+        public override int SaveChanges()
+        {
+            var modified = ChangeTracker.Entries().Where(e => e.State == EntityState.Modified || e.State == EntityState.Added);
+
+            foreach (EntityEntry item in modified)
+            {
+                var changedOrAddedItem = item.Entity as IdateTracking;
+                if (changedOrAddedItem != null)
+                {
+                    if (item.State == EntityState.Added)
+                    {
+                        changedOrAddedItem.DateCreated = DateTime.Now;
+                    }
+                    changedOrAddedItem.DateModified = DateTime.Now;
+                }
+            }
+            return base.SaveChanges();
+        }
+
 
     }
 }

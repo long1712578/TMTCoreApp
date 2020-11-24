@@ -43,7 +43,6 @@ namespace TMTCoreApp.Data.Entities
         public DateTime DateCreated { get; set; }
         public DateTime DateModified { get; set; }
         public string SeoPageTitle { get; set; }
-        [Column(TypeName ="varchar")]
         [StringLength(255)]
         public string SeoAlias { get; set; }
         [StringLength(255)]

@@ -11,12 +11,12 @@ namespace TMTCoreApp.Data.Entities
     public class AdvertistmentPosition : DomainEntity<string>
     {
         [StringLength(20)]
+        [ForeignKey("PageId")]
         public string PageId { get; set; }
 
         [StringLength(250)]
         public string Name { get; set; }
-
-        [ForeignKey("PageId")]
+        
         public virtual AdvertistmentPage AdvertistmentPage { get; set; }
 
         public virtual ICollection<Advertistment> Advertistments { get; set; }

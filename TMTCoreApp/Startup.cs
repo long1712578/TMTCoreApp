@@ -27,11 +27,12 @@ namespace TMTCoreApp
         {
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("BloggingDatabase")));
+            services.AddTransient<DbInitilizer>();
             services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,DbInitilizer dbInitializer)
         {
             if (env.IsDevelopment())
             {
@@ -56,6 +57,7 @@ namespace TMTCoreApp
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+            dbInitializer.Seed();
         }
     }
 }
